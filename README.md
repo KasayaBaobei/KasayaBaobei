@@ -43,11 +43,7 @@ $ cat skills.txt
 
 **Mobile**
 
-<img src="https://img.shields.io/badge/Android-161b22?style=for-the-badge&logo=android&logoColor=3ddc84" alt="Android" />
-<img src="https://img.shields.io/badge/iOS-161b22?style=for-the-badge&logo=apple&logoColor=white" alt="iOS" />
-<img src="https://img.shields.io/badge/Compose%20Multiplatform-161b22?style=for-the-badge&logo=jetpackcompose&logoColor=4285f4" alt="Compose Multiplatform" />
-<img src="https://img.shields.io/badge/Kotlin%20Multiplatform-161b22?style=for-the-badge&logo=kotlin&logoColor=7f52ff" alt="Kotlin Multiplatform" />
-<img src="https://img.shields.io/badge/Spaced%20repetition%20(FSRS)-161b22?style=for-the-badge" alt="Spaced repetition (FSRS)" />
+<img src="https://img.shields.io/badge/Android-161b22?style=for-the-badge&logo=android&logoColor=3ddc84" alt="Android" /> <img src="https://img.shields.io/badge/iOS-161b22?style=for-the-badge&logo=apple&logoColor=white" alt="iOS" /> <img src="https://img.shields.io/badge/Compose%20Multiplatform-161b22?style=for-the-badge&logo=jetpackcompose&logoColor=4285f4" alt="Compose Multiplatform" /> <img src="https://img.shields.io/badge/Kotlin%20Multiplatform-161b22?style=for-the-badge&logo=kotlin&logoColor=7f52ff" alt="Kotlin Multiplatform" /> <img src="https://img.shields.io/badge/Spaced%20repetition%20(FSRS)-161b22?style=for-the-badge" alt="Spaced repetition (FSRS)" />
 
 **Languages**
 <img src="https://skillicons.dev/icons?i=kotlin,swift,ts,js,python,html,css&theme=dark" alt="Kotlin, Swift, TypeScript, JavaScript, Python, HTML, CSS" height="36" />
