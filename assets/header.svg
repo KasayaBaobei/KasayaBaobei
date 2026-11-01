@@ -1,12 +1,495 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="854" height="260" viewBox="0 0 854 260" role="img" aria-label="KasayaBaobei, mobile and full-stack engineer at Mojiya Studio">
-<style>.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}.jp{font-family:'Hiragino Mincho ProN','Yu Mincho','Noto Serif JP','MS Mincho',serif}@keyframes fill{0%{transform:scaleX(.03)}25%{transform:scaleX(.27)}55%{transform:scaleX(.58)}85%{transform:scaleX(.91)}100%{transform:scaleX(1)}}.fill{transform-box:fill-box;transform-origin:0 50%;animation:fill 2.0s cubic-bezier(.3,.9,.4,1) forwards}@keyframes out{to{opacity:0}}.loader{animation:out .25s ease 2.0s forwards}@keyframes rise{0%{opacity:0;transform:translateY(14px)}100%{opacity:1;transform:translateY(0)}}@keyframes draw{0%{transform:scaleX(0)}100%{transform:scaleX(1)}}@keyframes stamp{0%{opacity:0;transform:scale(1.35) rotate(-8deg)}70%{opacity:1;transform:scale(.96) rotate(1deg)}100%{opacity:1;transform:scale(1) rotate(0)}}@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}.name{opacity:0;animation:rise .45s cubic-bezier(.2,.8,.2,1) 2.2s forwards}.role{opacity:0;animation:rise .45s cubic-bezier(.2,.8,.2,1) 2.3200000000000003s forwards}.tag{opacity:0;animation:rise .45s cubic-bezier(.2,.8,.2,1) 2.4400000000000004s forwards}.rule{transform-box:fill-box;transform-origin:0 50%;transform:scaleX(0);animation:draw .6s cubic-bezier(.65,0,.35,1) 2.25s forwards}.seal{opacity:0;transform-box:fill-box;transform-origin:50% 50%;animation:stamp .55s cubic-bezier(.2,.8,.2,1) 2.5500000000000003s forwards}.caret{opacity:0;animation:blink 1s steps(1) 2.9000000000000004s infinite}@keyframes ph0{0%,26.00%{opacity:1}26.01%,100%{opacity:0}}.ph0{opacity:0;animation:ph0 2.0s steps(1) forwards}@keyframes ph1{0%,26.00%{opacity:0}26.01%,55.00%{opacity:1}55.01%,100%{opacity:0}}.ph1{opacity:0;animation:ph1 2.0s steps(1) forwards}@keyframes ph2{0%,55.00%{opacity:0}55.01%,85.00%{opacity:1}85.01%,100%{opacity:0}}.ph2{opacity:0;animation:ph2 2.0s steps(1) forwards}@keyframes ph3{0%,85.00%{opacity:0}85.01%,100.00%{opacity:1}}.ph3{opacity:0;animation:ph3 2.0s steps(1) forwards}@keyframes pc0{0%,10.00%{opacity:1}10.01%,100%{opacity:0}}.pc0{opacity:0;animation:pc0 2.0s steps(1) forwards}@keyframes pc1{0%,10.00%{opacity:0}10.01%,20.00%{opacity:1}20.01%,100%{opacity:0}}.pc1{opacity:0;animation:pc1 2.0s steps(1) forwards}@keyframes pc2{0%,20.00%{opacity:0}20.01%,30.00%{opacity:1}30.01%,100%{opacity:0}}.pc2{opacity:0;animation:pc2 2.0s steps(1) forwards}@keyframes pc3{0%,30.00%{opacity:0}30.01%,40.00%{opacity:1}40.01%,100%{opacity:0}}.pc3{opacity:0;animation:pc3 2.0s steps(1) forwards}@keyframes pc4{0%,40.00%{opacity:0}40.01%,50.00%{opacity:1}50.01%,100%{opacity:0}}.pc4{opacity:0;animation:pc4 2.0s steps(1) forwards}@keyframes pc5{0%,50.00%{opacity:0}50.01%,60.00%{opacity:1}60.01%,100%{opacity:0}}.pc5{opacity:0;animation:pc5 2.0s steps(1) forwards}@keyframes pc6{0%,60.00%{opacity:0}60.01%,70.00%{opacity:1}70.01%,100%{opacity:0}}.pc6{opacity:0;animation:pc6 2.0s steps(1) forwards}@keyframes pc7{0%,70.00%{opacity:0}70.01%,80.00%{opacity:1}80.01%,100%{opacity:0}}.pc7{opacity:0;animation:pc7 2.0s steps(1) forwards}@keyframes pc8{0%,80.00%{opacity:0}80.01%,90.00%{opacity:1}90.01%,100%{opacity:0}}.pc8{opacity:0;animation:pc8 2.0s steps(1) forwards}@keyframes pc9{0%,90.00%{opacity:0}90.01%,100.00%{opacity:1}}.pc9{opacity:0;animation:pc9 2.0s steps(1) forwards}</style>
+<style>.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}.jp{font-family:'Hiragino Mincho ProN','Yu Mincho','Noto Serif JP','MS Mincho',serif}@keyframes fill{0%{transform:scaleX(.03)}25%{transform:scaleX(.27)}55%{transform:scaleX(.58)}85%{transform:scaleX(.91)}100%{transform:scaleX(1)}}.fill{transform-box:fill-box;transform-origin:0 50%;animation:fill 2.0s cubic-bezier(.3,.9,.4,1) forwards}@keyframes out{to{opacity:0}}.loader{animation:out .25s ease 2.0s forwards}@keyframes rise{0%{opacity:0;transform:translateY(14px)}100%{opacity:1;transform:translateY(0)}}@keyframes draw{0%{transform:scaleX(0)}100%{transform:scaleX(1)}}@keyframes stamp{0%{opacity:0;transform:scale(1.35) rotate(-8deg)}70%{opacity:1;transform:scale(.96) rotate(1deg)}100%{opacity:1;transform:scale(1) rotate(0)}}@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}.name{opacity:0;animation:rise .45s cubic-bezier(.2,.8,.2,1) 2.2s forwards}.role{opacity:0;animation:rise .45s cubic-bezier(.2,.8,.2,1) 2.3200000000000003s forwards}.tag{opacity:0;animation:rise .45s cubic-bezier(.2,.8,.2,1) 2.4400000000000004s forwards}.rule{transform-box:fill-box;transform-origin:0 50%;transform:scaleX(0);animation:draw .6s cubic-bezier(.65,0,.35,1) 2.25s forwards}.seal{opacity:0;transform-box:fill-box;transform-origin:50% 50%;animation:stamp .55s cubic-bezier(.2,.8,.2,1) 2.5500000000000003s forwards}.caret{opacity:0;animation:blink 1s steps(1) 2.9000000000000004s infinite}@keyframes ph0{0%,26.00%{opacity:1}26.01%,100%{opacity:0}}.ph0{opacity:0;animation:ph0 2.0s steps(1) forwards}@keyframes ph1{0%,26.00%{opacity:0}26.01%,55.00%{opacity:1}55.01%,100%{opacity:0}}.ph1{opacity:0;animation:ph1 2.0s steps(1) forwards}@keyframes ph2{0%,55.00%{opacity:0}55.01%,85.00%{opacity:1}85.01%,100%{opacity:0}}.ph2{opacity:0;animation:ph2 2.0s steps(1) forwards}@keyframes ph3{0%,85.00%{opacity:0}85.01%,100.00%{opacity:1}}.ph3{opacity:0;animation:ph3 2.0s steps(1) forwards}@keyframes pc0{0%,10.00%{opacity:1}10.01%,100%{opacity:0}}.pc0{opacity:0;animation:pc0 2.0s steps(1) forwards}@keyframes pc1{0%,10.00%{opacity:0}10.01%,20.00%{opacity:1}20.01%,100%{opacity:0}}.pc1{opacity:0;animation:pc1 2.0s steps(1) forwards}@keyframes pc2{0%,20.00%{opacity:0}20.01%,30.00%{opacity:1}30.01%,100%{opacity:0}}.pc2{opacity:0;animation:pc2 2.0s steps(1) forwards}@keyframes pc3{0%,30.00%{opacity:0}30.01%,40.00%{opacity:1}40.01%,100%{opacity:0}}.pc3{opacity:0;animation:pc3 2.0s steps(1) forwards}@keyframes pc4{0%,40.00%{opacity:0}40.01%,50.00%{opacity:1}50.01%,100%{opacity:0}}.pc4{opacity:0;animation:pc4 2.0s steps(1) forwards}@keyframes pc5{0%,50.00%{opacity:0}50.01%,60.00%{opacity:1}60.01%,100%{opacity:0}}.pc5{opacity:0;animation:pc5 2.0s steps(1) forwards}@keyframes pc6{0%,60.00%{opacity:0}60.01%,70.00%{opacity:1}70.01%,100%{opacity:0}}.pc6{opacity:0;animation:pc6 2.0s steps(1) forwards}@keyframes pc7{0%,70.00%{opacity:0}70.01%,80.00%{opacity:1}80.01%,100%{opacity:0}}.pc7{opacity:0;animation:pc7 2.0s steps(1) forwards}@keyframes pc8{0%,80.00%{opacity:0}80.01%,90.00%{opacity:1}90.01%,100%{opacity:0}}.pc8{opacity:0;animation:pc8 2.0s steps(1) forwards}@keyframes pc9{0%,90.00%{opacity:0}90.01%,100.00%{opacity:1}}.pc9{opacity:0;animation:pc9 2.0s steps(1) forwards}@keyframes fall8{from{transform:translateY(-160px)}to{transform:translateY(260px)}}@keyframes fall11{from{transform:translateY(-220px)}to{transform:translateY(260px)}}@keyframes fall14{from{transform:translateY(-280px)}to{transform:translateY(260px)}}@media (prefers-reduced-motion:reduce){.col{animation:none!important}}</style>
 <defs>
 <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient>
 <linearGradient id="acc" x1="0" x2="1"><stop offset="0" stop-color="#d9452b"/><stop offset="1" stop-color="#f4a261"/></linearGradient>
-<pattern id="seigaiha" width="28" height="14" patternUnits="userSpaceOnUse"><g fill="none" stroke="#f0f6fc" stroke-opacity=".035" stroke-width="1"><circle cx="14" cy="14" r="13"/><circle cx="14" cy="14" r="9"/><circle cx="14" cy="14" r="5"/><circle cx="0" cy="7" r="13"/><circle cx="28" cy="7" r="13"/></g></pattern>
+<linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#0d1117" stop-opacity=".92"/><stop offset=".55" stop-color="#0d1117" stop-opacity=".55"/><stop offset="1" stop-color="#0d1117" stop-opacity=".1"/></linearGradient>
+<clipPath id="frame"><rect width="854" height="260" rx="10"/></clipPath>
 </defs>
 <rect width="854" height="260" rx="10" fill="url(#bg)"/>
-<rect width="854" height="260" rx="10" fill="url(#seigaiha)"/>
+<g clip-path="url(#frame)">
+<g class="col" style="animation:fall11 6.4s linear -2.0s infinite">
+<text class="mono" x="10" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">ヌ</text>
+<text class="mono" x="10" y="20" font-size="16" fill="#e8553a" fill-opacity="0.13">シ</text>
+<text class="mono" x="10" y="40" font-size="16" fill="#e8553a" fill-opacity="0.17">す</text>
+<text class="mono" x="10" y="60" font-size="16" fill="#e8553a" fill-opacity="0.22">リ</text>
+<text class="mono" x="10" y="80" font-size="16" fill="#e8553a" fill-opacity="0.26">リ</text>
+<text class="mono" x="10" y="100" font-size="16" fill="#e8553a" fill-opacity="0.31">ソ</text>
+<text class="mono" x="10" y="120" font-size="16" fill="#e8553a" fill-opacity="0.35">ネ</text>
+<text class="mono" x="10" y="140" font-size="16" fill="#e8553a" fill-opacity="0.40">き</text>
+<text class="mono" x="10" y="160" font-size="16" fill="#e8553a" fill-opacity="0.44">本</text>
+<text class="mono" x="10" y="180" font-size="16" fill="#e8553a" fill-opacity="0.49">し</text>
+<text class="mono" x="10" y="200" font-size="16" fill="#ffd9cf" fill-opacity="0.90">す</text>
+</g>
+<g class="col" style="animation:fall11 4.1s linear -0.9s infinite">
+<text class="mono" x="32" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">シ</text>
+<text class="mono" x="32" y="20" font-size="16" fill="#e8553a" fill-opacity="0.13">彙</text>
+<text class="mono" x="32" y="40" font-size="16" fill="#e8553a" fill-opacity="0.17">ノ</text>
+<text class="mono" x="32" y="60" font-size="16" fill="#e8553a" fill-opacity="0.22">本</text>
+<text class="mono" x="32" y="80" font-size="16" fill="#e8553a" fill-opacity="0.26">ク</text>
+<text class="mono" x="32" y="100" font-size="16" fill="#e8553a" fill-opacity="0.31">字</text>
+<text class="mono" x="32" y="120" font-size="16" fill="#e8553a" fill-opacity="0.35">チ</text>
+<text class="mono" x="32" y="140" font-size="16" fill="#e8553a" fill-opacity="0.40">ン</text>
+<text class="mono" x="32" y="160" font-size="16" fill="#e8553a" fill-opacity="0.44">ソ</text>
+<text class="mono" x="32" y="180" font-size="16" fill="#e8553a" fill-opacity="0.49">ハ</text>
+<text class="mono" x="32" y="200" font-size="16" fill="#ffd9cf" fill-opacity="0.90">ナ</text>
+</g>
+<g class="col" style="animation:fall8 9.5s linear -4.1s infinite">
+<text class="mono" x="54" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">ウ</text>
+<text class="mono" x="54" y="20" font-size="16" fill="#e8553a" fill-opacity="0.14">読</text>
+<text class="mono" x="54" y="40" font-size="16" fill="#e8553a" fill-opacity="0.21">ケ</text>
+<text class="mono" x="54" y="60" font-size="16" fill="#e8553a" fill-opacity="0.27">ノ</text>
+<text class="mono" x="54" y="80" font-size="16" fill="#e8553a" fill-opacity="0.33">テ</text>
+<text class="mono" x="54" y="100" font-size="16" fill="#e8553a" fill-opacity="0.39">イ</text>
+<text class="mono" x="54" y="120" font-size="16" fill="#e8553a" fill-opacity="0.46">シ</text>
+<text class="mono" x="54" y="140" font-size="16" fill="#ffd9cf" fill-opacity="0.90">あ</text>
+</g>
+<g class="col" style="animation:fall11 4.5s linear -3.3s infinite">
+<text class="mono" x="76" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">そ</text>
+<text class="mono" x="76" y="20" font-size="16" fill="#e8553a" fill-opacity="0.13">ケ</text>
+<text class="mono" x="76" y="40" font-size="16" fill="#e8553a" fill-opacity="0.17">リ</text>
+<text class="mono" x="76" y="60" font-size="16" fill="#e8553a" fill-opacity="0.22">ル</text>
+<text class="mono" x="76" y="80" font-size="16" fill="#e8553a" fill-opacity="0.26">く</text>
+<text class="mono" x="76" y="100" font-size="16" fill="#e8553a" fill-opacity="0.31">テ</text>
+<text class="mono" x="76" y="120" font-size="16" fill="#e8553a" fill-opacity="0.35">ニ</text>
+<text class="mono" x="76" y="140" font-size="16" fill="#e8553a" fill-opacity="0.40">あ</text>
+<text class="mono" x="76" y="160" font-size="16" fill="#e8553a" fill-opacity="0.44">エ</text>
+<text class="mono" x="76" y="180" font-size="16" fill="#e8553a" fill-opacity="0.49">オ</text>
+<text class="mono" x="76" y="200" font-size="16" fill="#ffd9cf" fill-opacity="0.90">ミ</text>
+</g>
+<g class="col" style="animation:fall8 4.8s linear -2.5s infinite">
+<text class="mono" x="98" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">オ</text>
+<text class="mono" x="98" y="20" font-size="16" fill="#e8553a" fill-opacity="0.14">カ</text>
+<text class="mono" x="98" y="40" font-size="16" fill="#e8553a" fill-opacity="0.21">ユ</text>
+<text class="mono" x="98" y="60" font-size="16" fill="#e8553a" fill-opacity="0.27">ロ</text>
+<text class="mono" x="98" y="80" font-size="16" fill="#e8553a" fill-opacity="0.33">ユ</text>
+<text class="mono" x="98" y="100" font-size="16" fill="#e8553a" fill-opacity="0.39">ニ</text>
+<text class="mono" x="98" y="120" font-size="16" fill="#e8553a" fill-opacity="0.46">く</text>
+<text class="mono" x="98" y="140" font-size="16" fill="#ffd9cf" fill-opacity="0.90">ヨ</text>
+</g>
+<g class="col" style="animation:fall8 7.3s linear -7.1s infinite">
+<text class="mono" x="120" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">語</text>
+<text class="mono" x="120" y="20" font-size="16" fill="#e8553a" fill-opacity="0.14">語</text>
+<text class="mono" x="120" y="40" font-size="16" fill="#e8553a" fill-opacity="0.21">読</text>
+<text class="mono" x="120" y="60" font-size="16" fill="#e8553a" fill-opacity="0.27">タ</text>
+<text class="mono" x="120" y="80" font-size="16" fill="#e8553a" fill-opacity="0.33">ヒ</text>
+<text class="mono" x="120" y="100" font-size="16" fill="#e8553a" fill-opacity="0.39">い</text>
+<text class="mono" x="120" y="120" font-size="16" fill="#e8553a" fill-opacity="0.46">ミ</text>
+<text class="mono" x="120" y="140" font-size="16" fill="#ffd9cf" fill-opacity="0.90">語</text>
+</g>
+<g class="col" style="animation:fall8 9.9s linear -9.6s infinite">
+<text class="mono" x="142" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">字</text>
+<text class="mono" x="142" y="20" font-size="16" fill="#e8553a" fill-opacity="0.14">ロ</text>
+<text class="mono" x="142" y="40" font-size="16" fill="#e8553a" fill-opacity="0.21">ハ</text>
+<text class="mono" x="142" y="60" font-size="16" fill="#e8553a" fill-opacity="0.27">漢</text>
+<text class="mono" x="142" y="80" font-size="16" fill="#e8553a" fill-opacity="0.33">ウ</text>
+<text class="mono" x="142" y="100" font-size="16" fill="#e8553a" fill-opacity="0.39">イ</text>
+<text class="mono" x="142" y="120" font-size="16" fill="#e8553a" fill-opacity="0.46">シ</text>
+<text class="mono" x="142" y="140" font-size="16" fill="#ffd9cf" fill-opacity="0.90">学</text>
+</g>
+<g class="col" style="animation:fall11 8.2s linear -5.5s infinite">
+<text class="mono" x="164" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">ネ</text>
+<text class="mono" x="164" y="20" font-size="16" fill="#e8553a" fill-opacity="0.13">書</text>
+<text class="mono" x="164" y="40" font-size="16" fill="#e8553a" fill-opacity="0.17">文</text>
+<text class="mono" x="164" y="60" font-size="16" fill="#e8553a" fill-opacity="0.22">リ</text>
+<text class="mono" x="164" y="80" font-size="16" fill="#e8553a" fill-opacity="0.26">ヲ</text>
+<text class="mono" x="164" y="100" font-size="16" fill="#e8553a" fill-opacity="0.31">ミ</text>
+<text class="mono" x="164" y="120" font-size="16" fill="#e8553a" fill-opacity="0.35">サ</text>
+<text class="mono" x="164" y="140" font-size="16" fill="#e8553a" fill-opacity="0.40">う</text>
+<text class="mono" x="164" y="160" font-size="16" fill="#e8553a" fill-opacity="0.44">学</text>
+<text class="mono" x="164" y="180" font-size="16" fill="#e8553a" fill-opacity="0.49">き</text>
+<text class="mono" x="164" y="200" font-size="16" fill="#ffd9cf" fill-opacity="0.90">ン</text>
+</g>
+<g class="col" style="animation:fall8 8.3s linear -6.5s infinite">
+<text class="mono" x="186" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">い</text>
+<text class="mono" x="186" y="20" font-size="16" fill="#e8553a" fill-opacity="0.14">本</text>
+<text class="mono" x="186" y="40" font-size="16" fill="#e8553a" fill-opacity="0.21">文</text>
+<text class="mono" x="186" y="60" font-size="16" fill="#e8553a" fill-opacity="0.27">読</text>
+<text class="mono" x="186" y="80" font-size="16" fill="#e8553a" fill-opacity="0.33">ナ</text>
+<text class="mono" x="186" y="100" font-size="16" fill="#e8553a" fill-opacity="0.39">ノ</text>
+<text class="mono" x="186" y="120" font-size="16" fill="#e8553a" fill-opacity="0.46">屋</text>
+<text class="mono" x="186" y="140" font-size="16" fill="#ffd9cf" fill-opacity="0.90">ヘ</text>
+</g>
+<g class="col" style="animation:fall8 8.4s linear -4.5s infinite">
+<text class="mono" x="208" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">ヨ</text>
+<text class="mono" x="208" y="20" font-size="16" fill="#e8553a" fill-opacity="0.14">ス</text>
+<text class="mono" x="208" y="40" font-size="16" fill="#e8553a" fill-opacity="0.21">テ</text>
+<text class="mono" x="208" y="60" font-size="16" fill="#e8553a" fill-opacity="0.27">マ</text>
+<text class="mono" x="208" y="80" font-size="16" fill="#e8553a" fill-opacity="0.33">ラ</text>
+<text class="mono" x="208" y="100" font-size="16" fill="#e8553a" fill-opacity="0.39">そ</text>
+<text class="mono" x="208" y="120" font-size="16" fill="#e8553a" fill-opacity="0.46">こ</text>
+<text class="mono" x="208" y="140" font-size="16" fill="#ffd9cf" fill-opacity="0.90">モ</text>
+</g>
+<g class="col" style="animation:fall11 4.0s linear -1.3s infinite">
+<text class="mono" x="230" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">語</text>
+<text class="mono" x="230" y="20" font-size="16" fill="#e8553a" fill-opacity="0.13">ト</text>
+<text class="mono" x="230" y="40" font-size="16" fill="#e8553a" fill-opacity="0.17">シ</text>
+<text class="mono" x="230" y="60" font-size="16" fill="#e8553a" fill-opacity="0.22">シ</text>
+<text class="mono" x="230" y="80" font-size="16" fill="#e8553a" fill-opacity="0.26">マ</text>
+<text class="mono" x="230" y="100" font-size="16" fill="#e8553a" fill-opacity="0.31">き</text>
+<text class="mono" x="230" y="120" font-size="16" fill="#e8553a" fill-opacity="0.35">く</text>
+<text class="mono" x="230" y="140" font-size="16" fill="#e8553a" fill-opacity="0.40">カ</text>
+<text class="mono" x="230" y="160" font-size="16" fill="#e8553a" fill-opacity="0.44">ネ</text>
+<text class="mono" x="230" y="180" font-size="16" fill="#e8553a" fill-opacity="0.49">レ</text>
+<text class="mono" x="230" y="200" font-size="16" fill="#ffd9cf" fill-opacity="0.90">お</text>
+</g>
+<g class="col" style="animation:fall14 5.4s linear -4.0s infinite">
+<text class="mono" x="252" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">お</text>
+<text class="mono" x="252" y="20" font-size="16" fill="#e8553a" fill-opacity="0.12">テ</text>
+<text class="mono" x="252" y="40" font-size="16" fill="#e8553a" fill-opacity="0.15">コ</text>
+<text class="mono" x="252" y="60" font-size="16" fill="#e8553a" fill-opacity="0.19">ノ</text>
+<text class="mono" x="252" y="80" font-size="16" fill="#e8553a" fill-opacity="0.22">ヒ</text>
+<text class="mono" x="252" y="100" font-size="16" fill="#e8553a" fill-opacity="0.26">セ</text>
+<text class="mono" x="252" y="120" font-size="16" fill="#e8553a" fill-opacity="0.29">ニ</text>
+<text class="mono" x="252" y="140" font-size="16" fill="#e8553a" fill-opacity="0.33">ヤ</text>
+<text class="mono" x="252" y="160" font-size="16" fill="#e8553a" fill-opacity="0.37">ク</text>
+<text class="mono" x="252" y="180" font-size="16" fill="#e8553a" fill-opacity="0.40">そ</text>
+<text class="mono" x="252" y="200" font-size="16" fill="#e8553a" fill-opacity="0.44">ミ</text>
+<text class="mono" x="252" y="220" font-size="16" fill="#e8553a" fill-opacity="0.47">ノ</text>
+<text class="mono" x="252" y="240" font-size="16" fill="#e8553a" fill-opacity="0.51">字</text>
+<text class="mono" x="252" y="260" font-size="16" fill="#ffd9cf" fill-opacity="0.90">す</text>
+</g>
+<g class="col" style="animation:fall8 8.1s linear -3.7s infinite">
+<text class="mono" x="274" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">ヘ</text>
+<text class="mono" x="274" y="20" font-size="16" fill="#e8553a" fill-opacity="0.14">法</text>
+<text class="mono" x="274" y="40" font-size="16" fill="#e8553a" fill-opacity="0.21">け</text>
+<text class="mono" x="274" y="60" font-size="16" fill="#e8553a" fill-opacity="0.27">ト</text>
+<text class="mono" x="274" y="80" font-size="16" fill="#e8553a" fill-opacity="0.33">く</text>
+<text class="mono" x="274" y="100" font-size="16" fill="#e8553a" fill-opacity="0.39">屋</text>
+<text class="mono" x="274" y="120" font-size="16" fill="#e8553a" fill-opacity="0.46">オ</text>
+<text class="mono" x="274" y="140" font-size="16" fill="#ffd9cf" fill-opacity="0.90">ワ</text>
+</g>
+<g class="col" style="animation:fall14 4.1s linear -2.8s infinite">
+<text class="mono" x="296" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">ス</text>
+<text class="mono" x="296" y="20" font-size="16" fill="#e8553a" fill-opacity="0.12">エ</text>
+<text class="mono" x="296" y="40" font-size="16" fill="#e8553a" fill-opacity="0.15">読</text>
+<text class="mono" x="296" y="60" font-size="16" fill="#e8553a" fill-opacity="0.19">ウ</text>
+<text class="mono" x="296" y="80" font-size="16" fill="#e8553a" fill-opacity="0.22">イ</text>
+<text class="mono" x="296" y="100" font-size="16" fill="#e8553a" fill-opacity="0.26">ト</text>
+<text class="mono" x="296" y="120" font-size="16" fill="#e8553a" fill-opacity="0.29">屋</text>
+<text class="mono" x="296" y="140" font-size="16" fill="#e8553a" fill-opacity="0.33">読</text>
+<text class="mono" x="296" y="160" font-size="16" fill="#e8553a" fill-opacity="0.37">ヌ</text>
+<text class="mono" x="296" y="180" font-size="16" fill="#e8553a" fill-opacity="0.40">チ</text>
+<text class="mono" x="296" y="200" font-size="16" fill="#e8553a" fill-opacity="0.44">ヲ</text>
+<text class="mono" x="296" y="220" font-size="16" fill="#e8553a" fill-opacity="0.47">し</text>
+<text class="mono" x="296" y="240" font-size="16" fill="#e8553a" fill-opacity="0.51">書</text>
+<text class="mono" x="296" y="260" font-size="16" fill="#ffd9cf" fill-opacity="0.90">語</text>
+</g>
+<g class="col" style="animation:fall14 5.8s linear -0.1s infinite">
+<text class="mono" x="318" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">ネ</text>
+<text class="mono" x="318" y="20" font-size="16" fill="#e8553a" fill-opacity="0.12">ニ</text>
+<text class="mono" x="318" y="40" font-size="16" fill="#e8553a" fill-opacity="0.15">語</text>
+<text class="mono" x="318" y="60" font-size="16" fill="#e8553a" fill-opacity="0.19">ヤ</text>
+<text class="mono" x="318" y="80" font-size="16" fill="#e8553a" fill-opacity="0.22">カ</text>
+<text class="mono" x="318" y="100" font-size="16" fill="#e8553a" fill-opacity="0.26">え</text>
+<text class="mono" x="318" y="120" font-size="16" fill="#e8553a" fill-opacity="0.29">え</text>
+<text class="mono" x="318" y="140" font-size="16" fill="#e8553a" fill-opacity="0.33">え</text>
+<text class="mono" x="318" y="160" font-size="16" fill="#e8553a" fill-opacity="0.37">読</text>
+<text class="mono" x="318" y="180" font-size="16" fill="#e8553a" fill-opacity="0.40">ロ</text>
+<text class="mono" x="318" y="200" font-size="16" fill="#e8553a" fill-opacity="0.44">ワ</text>
+<text class="mono" x="318" y="220" font-size="16" fill="#e8553a" fill-opacity="0.47">レ</text>
+<text class="mono" x="318" y="240" font-size="16" fill="#e8553a" fill-opacity="0.51">ト</text>
+<text class="mono" x="318" y="260" font-size="16" fill="#ffd9cf" fill-opacity="0.90">す</text>
+</g>
+<g class="col" style="animation:fall8 4.0s linear -0.2s infinite">
+<text class="mono" x="340" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">語</text>
+<text class="mono" x="340" y="20" font-size="16" fill="#e8553a" fill-opacity="0.14">ヘ</text>
+<text class="mono" x="340" y="40" font-size="16" fill="#e8553a" fill-opacity="0.21">セ</text>
+<text class="mono" x="340" y="60" font-size="16" fill="#e8553a" fill-opacity="0.27">ン</text>
+<text class="mono" x="340" y="80" font-size="16" fill="#e8553a" fill-opacity="0.33">さ</text>
+<text class="mono" x="340" y="100" font-size="16" fill="#e8553a" fill-opacity="0.39">ヤ</text>
+<text class="mono" x="340" y="120" font-size="16" fill="#e8553a" fill-opacity="0.46">オ</text>
+<text class="mono" x="340" y="140" font-size="16" fill="#ffd9cf" fill-opacity="0.90">レ</text>
+</g>
+<g class="col" style="animation:fall8 8.7s linear -4.0s infinite">
+<text class="mono" x="362" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">い</text>
+<text class="mono" x="362" y="20" font-size="16" fill="#e8553a" fill-opacity="0.14">ヌ</text>
+<text class="mono" x="362" y="40" font-size="16" fill="#e8553a" fill-opacity="0.21">フ</text>
+<text class="mono" x="362" y="60" font-size="16" fill="#e8553a" fill-opacity="0.27">ヤ</text>
+<text class="mono" x="362" y="80" font-size="16" fill="#e8553a" fill-opacity="0.33">リ</text>
+<text class="mono" x="362" y="100" font-size="16" fill="#e8553a" fill-opacity="0.39">チ</text>
+<text class="mono" x="362" y="120" font-size="16" fill="#e8553a" fill-opacity="0.46">サ</text>
+<text class="mono" x="362" y="140" font-size="16" fill="#ffd9cf" fill-opacity="0.90">サ</text>
+</g>
+<g class="col" style="animation:fall14 5.3s linear -1.7s infinite">
+<text class="mono" x="384" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">学</text>
+<text class="mono" x="384" y="20" font-size="16" fill="#e8553a" fill-opacity="0.12">ス</text>
+<text class="mono" x="384" y="40" font-size="16" fill="#e8553a" fill-opacity="0.15">こ</text>
+<text class="mono" x="384" y="60" font-size="16" fill="#e8553a" fill-opacity="0.19">タ</text>
+<text class="mono" x="384" y="80" font-size="16" fill="#e8553a" fill-opacity="0.22">チ</text>
+<text class="mono" x="384" y="100" font-size="16" fill="#e8553a" fill-opacity="0.26">け</text>
+<text class="mono" x="384" y="120" font-size="16" fill="#e8553a" fill-opacity="0.29">書</text>
+<text class="mono" x="384" y="140" font-size="16" fill="#e8553a" fill-opacity="0.33">語</text>
+<text class="mono" x="384" y="160" font-size="16" fill="#e8553a" fill-opacity="0.37">ヌ</text>
+<text class="mono" x="384" y="180" font-size="16" fill="#e8553a" fill-opacity="0.40">書</text>
+<text class="mono" x="384" y="200" font-size="16" fill="#e8553a" fill-opacity="0.44">ス</text>
+<text class="mono" x="384" y="220" font-size="16" fill="#e8553a" fill-opacity="0.47">タ</text>
+<text class="mono" x="384" y="240" font-size="16" fill="#e8553a" fill-opacity="0.51">彙</text>
+<text class="mono" x="384" y="260" font-size="16" fill="#ffd9cf" fill-opacity="0.90">フ</text>
+</g>
+<g class="col" style="animation:fall11 7.8s linear -0.2s infinite">
+<text class="mono" x="406" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">ホ</text>
+<text class="mono" x="406" y="20" font-size="16" fill="#e8553a" fill-opacity="0.13">法</text>
+<text class="mono" x="406" y="40" font-size="16" fill="#e8553a" fill-opacity="0.17">メ</text>
+<text class="mono" x="406" y="60" font-size="16" fill="#e8553a" fill-opacity="0.22">ヌ</text>
+<text class="mono" x="406" y="80" font-size="16" fill="#e8553a" fill-opacity="0.26">ム</text>
+<text class="mono" x="406" y="100" font-size="16" fill="#e8553a" fill-opacity="0.31">ア</text>
+<text class="mono" x="406" y="120" font-size="16" fill="#e8553a" fill-opacity="0.35">ヘ</text>
+<text class="mono" x="406" y="140" font-size="16" fill="#e8553a" fill-opacity="0.40">法</text>
+<text class="mono" x="406" y="160" font-size="16" fill="#e8553a" fill-opacity="0.44">本</text>
+<text class="mono" x="406" y="180" font-size="16" fill="#e8553a" fill-opacity="0.49">彙</text>
+<text class="mono" x="406" y="200" font-size="16" fill="#ffd9cf" fill-opacity="0.90">い</text>
+</g>
+<g class="col" style="animation:fall8 9.0s linear -1.0s infinite">
+<text class="mono" x="428" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">字</text>
+<text class="mono" x="428" y="20" font-size="16" fill="#e8553a" fill-opacity="0.14">こ</text>
+<text class="mono" x="428" y="40" font-size="16" fill="#e8553a" fill-opacity="0.21">う</text>
+<text class="mono" x="428" y="60" font-size="16" fill="#e8553a" fill-opacity="0.27">ニ</text>
+<text class="mono" x="428" y="80" font-size="16" fill="#e8553a" fill-opacity="0.33">コ</text>
+<text class="mono" x="428" y="100" font-size="16" fill="#e8553a" fill-opacity="0.39">こ</text>
+<text class="mono" x="428" y="120" font-size="16" fill="#e8553a" fill-opacity="0.46">ア</text>
+<text class="mono" x="428" y="140" font-size="16" fill="#ffd9cf" fill-opacity="0.90">サ</text>
+</g>
+<g class="col" style="animation:fall14 9.9s linear -8.6s infinite">
+<text class="mono" x="450" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">お</text>
+<text class="mono" x="450" y="20" font-size="16" fill="#e8553a" fill-opacity="0.12">タ</text>
+<text class="mono" x="450" y="40" font-size="16" fill="#e8553a" fill-opacity="0.15">リ</text>
+<text class="mono" x="450" y="60" font-size="16" fill="#e8553a" fill-opacity="0.19">ネ</text>
+<text class="mono" x="450" y="80" font-size="16" fill="#e8553a" fill-opacity="0.22">法</text>
+<text class="mono" x="450" y="100" font-size="16" fill="#e8553a" fill-opacity="0.26">セ</text>
+<text class="mono" x="450" y="120" font-size="16" fill="#e8553a" fill-opacity="0.29">ム</text>
+<text class="mono" x="450" y="140" font-size="16" fill="#e8553a" fill-opacity="0.33">チ</text>
+<text class="mono" x="450" y="160" font-size="16" fill="#e8553a" fill-opacity="0.37">カ</text>
+<text class="mono" x="450" y="180" font-size="16" fill="#e8553a" fill-opacity="0.40">ヨ</text>
+<text class="mono" x="450" y="200" font-size="16" fill="#e8553a" fill-opacity="0.44">ム</text>
+<text class="mono" x="450" y="220" font-size="16" fill="#e8553a" fill-opacity="0.47">ロ</text>
+<text class="mono" x="450" y="240" font-size="16" fill="#e8553a" fill-opacity="0.51">ヘ</text>
+<text class="mono" x="450" y="260" font-size="16" fill="#ffd9cf" fill-opacity="0.90">せ</text>
+</g>
+<g class="col" style="animation:fall11 8.4s linear -4.5s infinite">
+<text class="mono" x="472" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">え</text>
+<text class="mono" x="472" y="20" font-size="16" fill="#e8553a" fill-opacity="0.13">す</text>
+<text class="mono" x="472" y="40" font-size="16" fill="#e8553a" fill-opacity="0.17">イ</text>
+<text class="mono" x="472" y="60" font-size="16" fill="#e8553a" fill-opacity="0.22">文</text>
+<text class="mono" x="472" y="80" font-size="16" fill="#e8553a" fill-opacity="0.26">ム</text>
+<text class="mono" x="472" y="100" font-size="16" fill="#e8553a" fill-opacity="0.31">イ</text>
+<text class="mono" x="472" y="120" font-size="16" fill="#e8553a" fill-opacity="0.35">テ</text>
+<text class="mono" x="472" y="140" font-size="16" fill="#e8553a" fill-opacity="0.40">ヒ</text>
+<text class="mono" x="472" y="160" font-size="16" fill="#e8553a" fill-opacity="0.44">ロ</text>
+<text class="mono" x="472" y="180" font-size="16" fill="#e8553a" fill-opacity="0.49">本</text>
+<text class="mono" x="472" y="200" font-size="16" fill="#ffd9cf" fill-opacity="0.90">え</text>
+</g>
+<g class="col" style="animation:fall14 8.1s linear -7.0s infinite">
+<text class="mono" x="494" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">ヌ</text>
+<text class="mono" x="494" y="20" font-size="16" fill="#e8553a" fill-opacity="0.12">メ</text>
+<text class="mono" x="494" y="40" font-size="16" fill="#e8553a" fill-opacity="0.15">ウ</text>
+<text class="mono" x="494" y="60" font-size="16" fill="#e8553a" fill-opacity="0.19">学</text>
+<text class="mono" x="494" y="80" font-size="16" fill="#e8553a" fill-opacity="0.22">ン</text>
+<text class="mono" x="494" y="100" font-size="16" fill="#e8553a" fill-opacity="0.26">こ</text>
+<text class="mono" x="494" y="120" font-size="16" fill="#e8553a" fill-opacity="0.29">ヨ</text>
+<text class="mono" x="494" y="140" font-size="16" fill="#e8553a" fill-opacity="0.33">文</text>
+<text class="mono" x="494" y="160" font-size="16" fill="#e8553a" fill-opacity="0.37">ノ</text>
+<text class="mono" x="494" y="180" font-size="16" fill="#e8553a" fill-opacity="0.40">ク</text>
+<text class="mono" x="494" y="200" font-size="16" fill="#e8553a" fill-opacity="0.44">け</text>
+<text class="mono" x="494" y="220" font-size="16" fill="#e8553a" fill-opacity="0.47">ウ</text>
+<text class="mono" x="494" y="240" font-size="16" fill="#e8553a" fill-opacity="0.51">オ</text>
+<text class="mono" x="494" y="260" font-size="16" fill="#ffd9cf" fill-opacity="0.90">学</text>
+</g>
+<g class="col" style="animation:fall14 9.0s linear -0.7s infinite">
+<text class="mono" x="516" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">ヘ</text>
+<text class="mono" x="516" y="20" font-size="16" fill="#e8553a" fill-opacity="0.12">ヌ</text>
+<text class="mono" x="516" y="40" font-size="16" fill="#e8553a" fill-opacity="0.15">お</text>
+<text class="mono" x="516" y="60" font-size="16" fill="#e8553a" fill-opacity="0.19">ヲ</text>
+<text class="mono" x="516" y="80" font-size="16" fill="#e8553a" fill-opacity="0.22">テ</text>
+<text class="mono" x="516" y="100" font-size="16" fill="#e8553a" fill-opacity="0.26">ア</text>
+<text class="mono" x="516" y="120" font-size="16" fill="#e8553a" fill-opacity="0.29">ミ</text>
+<text class="mono" x="516" y="140" font-size="16" fill="#e8553a" fill-opacity="0.33">さ</text>
+<text class="mono" x="516" y="160" font-size="16" fill="#e8553a" fill-opacity="0.37">ヒ</text>
+<text class="mono" x="516" y="180" font-size="16" fill="#e8553a" fill-opacity="0.40">そ</text>
+<text class="mono" x="516" y="200" font-size="16" fill="#e8553a" fill-opacity="0.44">う</text>
+<text class="mono" x="516" y="220" font-size="16" fill="#e8553a" fill-opacity="0.47">ソ</text>
+<text class="mono" x="516" y="240" font-size="16" fill="#e8553a" fill-opacity="0.51">ム</text>
+<text class="mono" x="516" y="260" font-size="16" fill="#ffd9cf" fill-opacity="0.90">ネ</text>
+</g>
+<g class="col" style="animation:fall8 7.1s linear -2.3s infinite">
+<text class="mono" x="538" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">か</text>
+<text class="mono" x="538" y="20" font-size="16" fill="#e8553a" fill-opacity="0.14">法</text>
+<text class="mono" x="538" y="40" font-size="16" fill="#e8553a" fill-opacity="0.21">ミ</text>
+<text class="mono" x="538" y="60" font-size="16" fill="#e8553a" fill-opacity="0.27">学</text>
+<text class="mono" x="538" y="80" font-size="16" fill="#e8553a" fill-opacity="0.33">ウ</text>
+<text class="mono" x="538" y="100" font-size="16" fill="#e8553a" fill-opacity="0.39">ツ</text>
+<text class="mono" x="538" y="120" font-size="16" fill="#e8553a" fill-opacity="0.46">ノ</text>
+<text class="mono" x="538" y="140" font-size="16" fill="#ffd9cf" fill-opacity="0.90">し</text>
+</g>
+<g class="col" style="animation:fall8 7.4s linear -3.0s infinite">
+<text class="mono" x="560" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">ク</text>
+<text class="mono" x="560" y="20" font-size="16" fill="#e8553a" fill-opacity="0.14">そ</text>
+<text class="mono" x="560" y="40" font-size="16" fill="#e8553a" fill-opacity="0.21">ム</text>
+<text class="mono" x="560" y="60" font-size="16" fill="#e8553a" fill-opacity="0.27">ト</text>
+<text class="mono" x="560" y="80" font-size="16" fill="#e8553a" fill-opacity="0.33">う</text>
+<text class="mono" x="560" y="100" font-size="16" fill="#e8553a" fill-opacity="0.39">ム</text>
+<text class="mono" x="560" y="120" font-size="16" fill="#e8553a" fill-opacity="0.46">ノ</text>
+<text class="mono" x="560" y="140" font-size="16" fill="#ffd9cf" fill-opacity="0.90">ヲ</text>
+</g>
+<g class="col" style="animation:fall8 8.1s linear -1.3s infinite">
+<text class="mono" x="582" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">イ</text>
+<text class="mono" x="582" y="20" font-size="16" fill="#e8553a" fill-opacity="0.14">シ</text>
+<text class="mono" x="582" y="40" font-size="16" fill="#e8553a" fill-opacity="0.21">ア</text>
+<text class="mono" x="582" y="60" font-size="16" fill="#e8553a" fill-opacity="0.27">文</text>
+<text class="mono" x="582" y="80" font-size="16" fill="#e8553a" fill-opacity="0.33">あ</text>
+<text class="mono" x="582" y="100" font-size="16" fill="#e8553a" fill-opacity="0.39">き</text>
+<text class="mono" x="582" y="120" font-size="16" fill="#e8553a" fill-opacity="0.46">い</text>
+<text class="mono" x="582" y="140" font-size="16" fill="#ffd9cf" fill-opacity="0.90">ケ</text>
+</g>
+<g class="col" style="animation:fall11 4.0s linear -2.3s infinite">
+<text class="mono" x="604" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">メ</text>
+<text class="mono" x="604" y="20" font-size="16" fill="#e8553a" fill-opacity="0.13">屋</text>
+<text class="mono" x="604" y="40" font-size="16" fill="#e8553a" fill-opacity="0.17">法</text>
+<text class="mono" x="604" y="60" font-size="16" fill="#e8553a" fill-opacity="0.22">イ</text>
+<text class="mono" x="604" y="80" font-size="16" fill="#e8553a" fill-opacity="0.26">ニ</text>
+<text class="mono" x="604" y="100" font-size="16" fill="#e8553a" fill-opacity="0.31">け</text>
+<text class="mono" x="604" y="120" font-size="16" fill="#e8553a" fill-opacity="0.35">テ</text>
+<text class="mono" x="604" y="140" font-size="16" fill="#e8553a" fill-opacity="0.40">漢</text>
+<text class="mono" x="604" y="160" font-size="16" fill="#e8553a" fill-opacity="0.44">ム</text>
+<text class="mono" x="604" y="180" font-size="16" fill="#e8553a" fill-opacity="0.49">書</text>
+<text class="mono" x="604" y="200" font-size="16" fill="#ffd9cf" fill-opacity="0.90">あ</text>
+</g>
+<g class="col" style="animation:fall11 8.8s linear -4.3s infinite">
+<text class="mono" x="626" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">カ</text>
+<text class="mono" x="626" y="20" font-size="16" fill="#e8553a" fill-opacity="0.13">ラ</text>
+<text class="mono" x="626" y="40" font-size="16" fill="#e8553a" fill-opacity="0.17">漢</text>
+<text class="mono" x="626" y="60" font-size="16" fill="#e8553a" fill-opacity="0.22">さ</text>
+<text class="mono" x="626" y="80" font-size="16" fill="#e8553a" fill-opacity="0.26">い</text>
+<text class="mono" x="626" y="100" font-size="16" fill="#e8553a" fill-opacity="0.31">さ</text>
+<text class="mono" x="626" y="120" font-size="16" fill="#e8553a" fill-opacity="0.35">キ</text>
+<text class="mono" x="626" y="140" font-size="16" fill="#e8553a" fill-opacity="0.40">オ</text>
+<text class="mono" x="626" y="160" font-size="16" fill="#e8553a" fill-opacity="0.44">え</text>
+<text class="mono" x="626" y="180" font-size="16" fill="#e8553a" fill-opacity="0.49">字</text>
+<text class="mono" x="626" y="200" font-size="16" fill="#ffd9cf" fill-opacity="0.90">す</text>
+</g>
+<g class="col" style="animation:fall8 7.9s linear -2.0s infinite">
+<text class="mono" x="648" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">く</text>
+<text class="mono" x="648" y="20" font-size="16" fill="#e8553a" fill-opacity="0.14">ケ</text>
+<text class="mono" x="648" y="40" font-size="16" fill="#e8553a" fill-opacity="0.21">語</text>
+<text class="mono" x="648" y="60" font-size="16" fill="#e8553a" fill-opacity="0.27">字</text>
+<text class="mono" x="648" y="80" font-size="16" fill="#e8553a" fill-opacity="0.33">ケ</text>
+<text class="mono" x="648" y="100" font-size="16" fill="#e8553a" fill-opacity="0.39">う</text>
+<text class="mono" x="648" y="120" font-size="16" fill="#e8553a" fill-opacity="0.46">フ</text>
+<text class="mono" x="648" y="140" font-size="16" fill="#ffd9cf" fill-opacity="0.90">文</text>
+</g>
+<g class="col" style="animation:fall14 9.7s linear -7.8s infinite">
+<text class="mono" x="670" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">モ</text>
+<text class="mono" x="670" y="20" font-size="16" fill="#e8553a" fill-opacity="0.12">タ</text>
+<text class="mono" x="670" y="40" font-size="16" fill="#e8553a" fill-opacity="0.15">エ</text>
+<text class="mono" x="670" y="60" font-size="16" fill="#e8553a" fill-opacity="0.19">ケ</text>
+<text class="mono" x="670" y="80" font-size="16" fill="#e8553a" fill-opacity="0.22">え</text>
+<text class="mono" x="670" y="100" font-size="16" fill="#e8553a" fill-opacity="0.26">う</text>
+<text class="mono" x="670" y="120" font-size="16" fill="#e8553a" fill-opacity="0.29">ニ</text>
+<text class="mono" x="670" y="140" font-size="16" fill="#e8553a" fill-opacity="0.33">屋</text>
+<text class="mono" x="670" y="160" font-size="16" fill="#e8553a" fill-opacity="0.37">し</text>
+<text class="mono" x="670" y="180" font-size="16" fill="#e8553a" fill-opacity="0.40">ヨ</text>
+<text class="mono" x="670" y="200" font-size="16" fill="#e8553a" fill-opacity="0.44">屋</text>
+<text class="mono" x="670" y="220" font-size="16" fill="#e8553a" fill-opacity="0.47">す</text>
+<text class="mono" x="670" y="240" font-size="16" fill="#e8553a" fill-opacity="0.51">文</text>
+<text class="mono" x="670" y="260" font-size="16" fill="#ffd9cf" fill-opacity="0.90">ロ</text>
+</g>
+<g class="col" style="animation:fall8 5.2s linear -3.8s infinite">
+<text class="mono" x="692" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">本</text>
+<text class="mono" x="692" y="20" font-size="16" fill="#e8553a" fill-opacity="0.14">ヒ</text>
+<text class="mono" x="692" y="40" font-size="16" fill="#e8553a" fill-opacity="0.21">文</text>
+<text class="mono" x="692" y="60" font-size="16" fill="#e8553a" fill-opacity="0.27">本</text>
+<text class="mono" x="692" y="80" font-size="16" fill="#e8553a" fill-opacity="0.33">書</text>
+<text class="mono" x="692" y="100" font-size="16" fill="#e8553a" fill-opacity="0.39">す</text>
+<text class="mono" x="692" y="120" font-size="16" fill="#e8553a" fill-opacity="0.46">キ</text>
+<text class="mono" x="692" y="140" font-size="16" fill="#ffd9cf" fill-opacity="0.90">タ</text>
+</g>
+<g class="col" style="animation:fall8 5.7s linear -3.3s infinite">
+<text class="mono" x="714" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">文</text>
+<text class="mono" x="714" y="20" font-size="16" fill="#e8553a" fill-opacity="0.14">あ</text>
+<text class="mono" x="714" y="40" font-size="16" fill="#e8553a" fill-opacity="0.21">サ</text>
+<text class="mono" x="714" y="60" font-size="16" fill="#e8553a" fill-opacity="0.27">チ</text>
+<text class="mono" x="714" y="80" font-size="16" fill="#e8553a" fill-opacity="0.33">ヌ</text>
+<text class="mono" x="714" y="100" font-size="16" fill="#e8553a" fill-opacity="0.39">あ</text>
+<text class="mono" x="714" y="120" font-size="16" fill="#e8553a" fill-opacity="0.46">ユ</text>
+<text class="mono" x="714" y="140" font-size="16" fill="#ffd9cf" fill-opacity="0.90">メ</text>
+</g>
+<g class="col" style="animation:fall8 7.4s linear -0.3s infinite">
+<text class="mono" x="736" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">け</text>
+<text class="mono" x="736" y="20" font-size="16" fill="#e8553a" fill-opacity="0.14">語</text>
+<text class="mono" x="736" y="40" font-size="16" fill="#e8553a" fill-opacity="0.21">か</text>
+<text class="mono" x="736" y="60" font-size="16" fill="#e8553a" fill-opacity="0.27">ホ</text>
+<text class="mono" x="736" y="80" font-size="16" fill="#e8553a" fill-opacity="0.33">オ</text>
+<text class="mono" x="736" y="100" font-size="16" fill="#e8553a" fill-opacity="0.39">セ</text>
+<text class="mono" x="736" y="120" font-size="16" fill="#e8553a" fill-opacity="0.46">モ</text>
+<text class="mono" x="736" y="140" font-size="16" fill="#ffd9cf" fill-opacity="0.90">ル</text>
+</g>
+<g class="col" style="animation:fall8 6.0s linear -2.3s infinite">
+<text class="mono" x="758" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">し</text>
+<text class="mono" x="758" y="20" font-size="16" fill="#e8553a" fill-opacity="0.14">ソ</text>
+<text class="mono" x="758" y="40" font-size="16" fill="#e8553a" fill-opacity="0.21">ク</text>
+<text class="mono" x="758" y="60" font-size="16" fill="#e8553a" fill-opacity="0.27">エ</text>
+<text class="mono" x="758" y="80" font-size="16" fill="#e8553a" fill-opacity="0.33">け</text>
+<text class="mono" x="758" y="100" font-size="16" fill="#e8553a" fill-opacity="0.39">ネ</text>
+<text class="mono" x="758" y="120" font-size="16" fill="#e8553a" fill-opacity="0.46">ソ</text>
+<text class="mono" x="758" y="140" font-size="16" fill="#ffd9cf" fill-opacity="0.90">す</text>
+</g>
+<g class="col" style="animation:fall11 4.1s linear -1.0s infinite">
+<text class="mono" x="780" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">ソ</text>
+<text class="mono" x="780" y="20" font-size="16" fill="#e8553a" fill-opacity="0.13">ラ</text>
+<text class="mono" x="780" y="40" font-size="16" fill="#e8553a" fill-opacity="0.17">ヒ</text>
+<text class="mono" x="780" y="60" font-size="16" fill="#e8553a" fill-opacity="0.22">く</text>
+<text class="mono" x="780" y="80" font-size="16" fill="#e8553a" fill-opacity="0.26">く</text>
+<text class="mono" x="780" y="100" font-size="16" fill="#e8553a" fill-opacity="0.31">リ</text>
+<text class="mono" x="780" y="120" font-size="16" fill="#e8553a" fill-opacity="0.35">ニ</text>
+<text class="mono" x="780" y="140" font-size="16" fill="#e8553a" fill-opacity="0.40">し</text>
+<text class="mono" x="780" y="160" font-size="16" fill="#e8553a" fill-opacity="0.44">文</text>
+<text class="mono" x="780" y="180" font-size="16" fill="#e8553a" fill-opacity="0.49">あ</text>
+<text class="mono" x="780" y="200" font-size="16" fill="#ffd9cf" fill-opacity="0.90">ネ</text>
+</g>
+<g class="col" style="animation:fall14 9.4s linear -0.9s infinite">
+<text class="mono" x="802" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">ン</text>
+<text class="mono" x="802" y="20" font-size="16" fill="#e8553a" fill-opacity="0.12">か</text>
+<text class="mono" x="802" y="40" font-size="16" fill="#e8553a" fill-opacity="0.15">く</text>
+<text class="mono" x="802" y="60" font-size="16" fill="#e8553a" fill-opacity="0.19">あ</text>
+<text class="mono" x="802" y="80" font-size="16" fill="#e8553a" fill-opacity="0.22">彙</text>
+<text class="mono" x="802" y="100" font-size="16" fill="#e8553a" fill-opacity="0.26">コ</text>
+<text class="mono" x="802" y="120" font-size="16" fill="#e8553a" fill-opacity="0.29">オ</text>
+<text class="mono" x="802" y="140" font-size="16" fill="#e8553a" fill-opacity="0.33">書</text>
+<text class="mono" x="802" y="160" font-size="16" fill="#e8553a" fill-opacity="0.37">こ</text>
+<text class="mono" x="802" y="180" font-size="16" fill="#e8553a" fill-opacity="0.40">メ</text>
+<text class="mono" x="802" y="200" font-size="16" fill="#e8553a" fill-opacity="0.44">レ</text>
+<text class="mono" x="802" y="220" font-size="16" fill="#e8553a" fill-opacity="0.47">さ</text>
+<text class="mono" x="802" y="240" font-size="16" fill="#e8553a" fill-opacity="0.51">語</text>
+<text class="mono" x="802" y="260" font-size="16" fill="#ffd9cf" fill-opacity="0.90">お</text>
+</g>
+<g class="col" style="animation:fall11 4.6s linear -1.4s infinite">
+<text class="mono" x="824" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">ム</text>
+<text class="mono" x="824" y="20" font-size="16" fill="#e8553a" fill-opacity="0.13">文</text>
+<text class="mono" x="824" y="40" font-size="16" fill="#e8553a" fill-opacity="0.17">語</text>
+<text class="mono" x="824" y="60" font-size="16" fill="#e8553a" fill-opacity="0.22">ス</text>
+<text class="mono" x="824" y="80" font-size="16" fill="#e8553a" fill-opacity="0.26">エ</text>
+<text class="mono" x="824" y="100" font-size="16" fill="#e8553a" fill-opacity="0.31">リ</text>
+<text class="mono" x="824" y="120" font-size="16" fill="#e8553a" fill-opacity="0.35">く</text>
+<text class="mono" x="824" y="140" font-size="16" fill="#e8553a" fill-opacity="0.40">セ</text>
+<text class="mono" x="824" y="160" font-size="16" fill="#e8553a" fill-opacity="0.44">ワ</text>
+<text class="mono" x="824" y="180" font-size="16" fill="#e8553a" fill-opacity="0.49">法</text>
+<text class="mono" x="824" y="200" font-size="16" fill="#ffd9cf" fill-opacity="0.90">ス</text>
+</g>
+<g class="col" style="animation:fall11 9.3s linear -1.3s infinite">
+<text class="mono" x="846" y="0" font-size="16" fill="#e8553a" fill-opacity="0.08">ワ</text>
+<text class="mono" x="846" y="20" font-size="16" fill="#e8553a" fill-opacity="0.13">こ</text>
+<text class="mono" x="846" y="40" font-size="16" fill="#e8553a" fill-opacity="0.17">そ</text>
+<text class="mono" x="846" y="60" font-size="16" fill="#e8553a" fill-opacity="0.22">す</text>
+<text class="mono" x="846" y="80" font-size="16" fill="#e8553a" fill-opacity="0.26">マ</text>
+<text class="mono" x="846" y="100" font-size="16" fill="#e8553a" fill-opacity="0.31">法</text>
+<text class="mono" x="846" y="120" font-size="16" fill="#e8553a" fill-opacity="0.35">ネ</text>
+<text class="mono" x="846" y="140" font-size="16" fill="#e8553a" fill-opacity="0.40">そ</text>
+<text class="mono" x="846" y="160" font-size="16" fill="#e8553a" fill-opacity="0.44">ミ</text>
+<text class="mono" x="846" y="180" font-size="16" fill="#e8553a" fill-opacity="0.49">ミ</text>
+<text class="mono" x="846" y="200" font-size="16" fill="#ffd9cf" fill-opacity="0.90">ヌ</text>
+</g>
+</g>
+<rect width="854" height="260" rx="10" fill="url(#fade)"/>
 <rect x=".5" y=".5" width="853" height="259" rx="10" fill="none" stroke="#30363d"/>
 <g class="loader">
 <text class="mono ph0" x="427.0" y="104" text-anchor="middle" font-size="14" letter-spacing="1.2" fill="#b0b6c2">[…] INIT PROFILE</text>
